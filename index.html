@@ -8,21 +8,29 @@
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="flex min-w-[300px] max-w-[1240px] shadow-xl bg-slate-300 h-[500px]   mx-auto mt-[50px] flex items-center justify-center ">
+    <article class="shadow-xl rounded-md w-[220px] bg-white flex flex-col items-center ">
+      <figure class="rounded-md overflow-hidden w-[200px]  mt-[10px]">
+        <img src="./images/image-qr-code.png" alt="imagen">
+      </figure> 
+      <div class="text-center text-[15px] p-4 flex flex-col gap-2">
+        <p class="font-outfit text-slate-900 font-[700]">
+          Improve your front-end skills by building projects
+        </p>
+        <p class="font-outfit text-slate-500 font-[400]">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </article>
   </div>
+  
 </body>
 </html>
+
